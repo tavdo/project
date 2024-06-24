@@ -1,0 +1,17 @@
+.menu {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .menu h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

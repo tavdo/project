@@ -1,0 +1,93 @@
+
+.reservation {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+  }
+  
+  .table-grid {
+    display: grid;
+    grid-template-areas:
+      "table1 table2 table3 table4 table5 table6"
+      "table7 table7 table8 table8 table9 table10"
+      "table11 table11 table12 table13 table14 table15";
+    grid-gap: 1rem;
+    justify-items: center;
+  }
+  
+  .table-item {
+    border: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .table-item .table-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
+  .table-item button {
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .table-item button:hover {
+    background-color: #ff6347;
+  }
+  
+  .reserved-info {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #ff6347;
+    color: #fff;
+  }
+  
+  .table1 { grid-area: table1; width: 100px; height: 100px; }
+  .table2 { grid-area: table2; width: 100px; height: 100px; }
+  .table3 { grid-area: table3; width: 100px; height: 100px; }
+  .table4 { grid-area: table4; width: 100px; height: 100px; }
+  .table5 { grid-area: table5; width: 100px; height: 100px; }
+  .table6 { grid-area: table6; width: 100px; height: 100px; }
+  .table7 { grid-area: table7; width: 210px; height: 100px; }
+  .table8 { grid-area: table8; width: 210px; height: 100px; }
+  .table9 { grid-area: table9; width: 100px; height: 100px; }
+  .table10 { grid-area: table10; width: 100px; height: 210px; }
+  .table11 { grid-area: table11; width: 210px; height: 100px; }
+  .table12 { grid-area: table12; width: 100px; height: 100px; }
+  .table13 { grid-area: table13; width: 100px; height: 100px; }
+  .table14 { grid-area: table14; width: 100px; height: 100px; }
+  .table15 { grid-area: table15; width: 100px; height: 100px; }
+  
+  /* Add background images to tables */
+  .table-item {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .table1 { background-image: url('https://via.placeholder.com/100'); }
+  .table2 { background-image: url('https://via.placeholder.com/100'); }
+  .table3 { background-image: url('https://via.placeholder.com/100'); }
+  .table4 { background-image: url('https://via.placeholder.com/100'); }
+  .table5 { background-image: url('https://via.placeholder.com/100'); }
+  .table6 { background-image: url('https://via.placeholder.com/100'); }
+  .table7 { background-image: url('https://via.placeholder.com/210x100'); }
+  .table8 { background-image: url('https://via.placeholder.com/210x100'); }
+  .table9 { background-image: url('https://via.placeholder.com/100'); }
+  .table10 { background-image: url('https://via.placeholder.com/100x210'); }
+  .table11 { background-image: url('https://via.placeholder.com/210x100'); }
+  .table12 { background-image: url('https://via.placeholder.com/100'); }
+  .table13 { background-image: url('https://via.placeholder.com/100'); }
+  .table14 { background-image: url('https://via.placeholder.com/100'); }
+  .table15 { background-image: url('https://via.placeholder.com/100'); }
+  
